@@ -11,6 +11,18 @@ import styled from "styled-components";
 import Header from "@/components/header";
 import SignInLink from "@/components/signin-link";
 
+// local type definition for Google user data, stop vercel from yelling at me
+interface GoogleUser {
+  sub: string;          
+  name: string;         
+  given_name: string;    
+  family_name: string;  
+  picture: string;     
+  email: string;         
+  email_verified: boolean; 
+  locale: string;        
+}
+
 // styled components for page
 const AppContainer = styled.div`
   display: flex;
@@ -62,8 +74,8 @@ const UserEmail = styled.p`
 `;
 
 export default function HomePage() {
-  // store the user's information
-  const [user, setUser] = useState<any>(null);
+  // state to store the user's information with proper typing
+  const [user, setUser] = useState<GoogleUser | null>(null);
 
   // check user info in URL parameters
   useEffect(() => {
