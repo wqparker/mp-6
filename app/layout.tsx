@@ -1,3 +1,4 @@
+// layout.tsx file, no big thing here
 import React from "react";
 
 export default function RootLayout(
