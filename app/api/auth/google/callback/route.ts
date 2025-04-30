@@ -1,9 +1,9 @@
 /*
- * This route.ts file handles the OAuth callback from Google,
- * user grants permission, then after sign-in redirects to this
- * with auth code, exchange for access token and fetch user profile
- * (prettttty sure this is how the high level logic works based of illustrations 
- * on piazza and in instructions)
+  This route.ts file handles the OAuth callback from Google,
+  user grants permission, then after sign-in redirects to this
+  with auth code, exchange for access token and fetch user profile
+  (prettttty sure this is how the high level logic works based of illustrations 
+  on piazza and in instructions)
  */
 
 import { NextResponse } from 'next/server';

@@ -1,9 +1,9 @@
 "use client";
 
 /*
- * main page component of the application
- * handle displaying either sign-in button or user's profile information
- * based on if user authenticated with Google
+  main page component of the application
+  handle displaying either sign-in button or user's profile information
+  based on if user authenticated with Google
  */
 
 import { useEffect, useState } from "react";

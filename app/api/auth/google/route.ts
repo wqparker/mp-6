@@ -1,7 +1,7 @@
 /*
- * This route.ts file handles the initial OAuth flow with Google
- * when user clicks sign-in button, redirected here
- * which redirects to Google's consent screen
+  This route.ts file handles the initial OAuth flow with Google
+  when user clicks sign-in button, redirected here
+  which redirects to Google's consent screen
  */
 
 import { NextResponse } from 'next/server';

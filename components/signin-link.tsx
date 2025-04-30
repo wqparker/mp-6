@@ -1,6 +1,6 @@
-/**
- * SignInLink component displays the sign-in card with a link
- * to initiate the Google OAuth flow
+/*
+  SignInLink component displays the sign-in card with a link
+  to initiate the Google OAuth flow
  */
 
 import styled from "styled-components";

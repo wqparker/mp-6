@@ -1,7 +1,7 @@
 /*
- * Header component 
- * title is clickable and links back to the home page
- * to return from user info to signin again
+  Header component 
+  title is clickable and links back to the home page
+  to return from user info to signin again
  */
 
 import styled from "styled-components";
